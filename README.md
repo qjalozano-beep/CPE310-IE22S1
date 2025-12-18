@@ -17,7 +17,9 @@ I have <b>2 pets</b>, <b>300 pesos</b> in my bank account, <b>100 problems</b>,
 </p>
 
 <p align="center">
-  <img src="https://tenor.com/view/michael-pena-but-i-got-the-van-antman-luis-gif-11792358">
+  <img src="https://tenor.com/view/michael-pena-but-i-got-the-van-antman-luis-gif-11792358"width="520">
+</p>
+
 </p>
 
 
