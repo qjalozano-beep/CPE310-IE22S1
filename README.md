@@ -147,92 +147,76 @@ print("Prediction for X=6:", prediction)
 <hr>
 
 <h2 style="font-family: monospace; color:#7ee787;">
-🎯 MINI CHALLENGES
-</h2>
+<h2>🧩 INTERACTIVE QUIZ (CLICK & CHECK)</h2>
 
-<pre>
-CHALLENGE 1:
-Add a column called "Passed" (Score ≥ 85).
+<p><b>Quiz 1: What is a DataFrame?</b></p>
 
-CHALLENGE 2:
-Sort the table from highest score to lowest.
+- [ ] A chart  
+- [x] A table of data  
+- [ ] A machine learning model  
 
-CHALLENGE 3:
-Change the bar chart into a line chart.
-
-CHALLENGE 4:
-Predict the value when X = 7.
-</pre>
+<details>
+<summary>✅ Show Answer</summary>
+A DataFrame is a table with rows and columns.
+</details>
 
 <hr>
 
-<h2 style="font-family: monospace; color:#7ee787;">
-🧩 QUICK QUIZ
-</h2>
+<p><b>Quiz 2: Which step comes FIRST in data science?</b></p>
 
-<pre>
-1) What is a DataFrame?
-A) A chart
-B) A table of data
-C) A model
+- [x] Data Collection  
+- [ ] Visualization  
+- [ ] Modeling  
 
-2) What comes first?
-A) Modeling
-B) Visualization
-C) Data Collection
-
-3) True or False:
-Clean data gives better results.
-</pre>
+<details>
+<summary>✅ Show Answer</summary>
+Data must be collected before it can be analyzed.
+</details>
 
 <hr>
 
-<h2 style="font-family: monospace; color:#7ee787;">
-🤯 INTERESTING DATA FACTS
-</h2>
+<p><b>Quiz 3: True or False</b></p>
 
-<pre>
-📌 Netflix uses data to recommend shows
-📌 One wrong value can break analysis
-📌 Charts explain faster than tables
-📌 Python is one of the most used data languages
-📌 Data science mixes logic and creativity
-</pre>
+- [x] True — Clean data gives better results  
+- [ ] False  
+
+<details>
+<summary>✅ Show Answer</summary>
+Clean data reduces errors and improves analysis.
+</details>
 
 <hr>
 
-<h2 style="font-family: monospace; color:#7ee787;">
-🌍 WHERE DATA SCIENCE IS USED
-</h2>
+<h2>🎯 MINI CHALLENGES (TRY IN PYTHON)</h2>
 
-<pre>
-🏦 Finance
-🏥 Healthcare
-🛒 Online Shopping
-📱 Mobile Apps
-🎮 Games
-🤖 Artificial Intelligence
-</pre>
+- [ ] Add a new column called <b>Passed</b> (Score ≥ 85)  
+- [ ] Sort the DataFrame by highest score  
+- [ ] Change a bar chart into a line chart  
+- [ ] Predict a value using the model  
+
+<details>
+<summary>💡 Hint</summary>
+Use pandas conditions, <code>sort_values()</code>, and <code>plt.plot()</code>.
+</details>
 
 <hr>
 
-<h2 style="font-family: monospace; color:#7ee787;">
-🚀 WHY CPE310 MATTERS
-</h2>
+<h2>🤯 BONUS FACT CHECK</h2>
 
-<pre>
-✔ Learn how to think with data
-✔ Solve real-world problems
-✔ Prepare for AI and ML
-✔ Build future-ready skills
-</pre>
+- [ ] Data scientists spend most time modeling  
+- [x] Data scientists spend most time cleaning data  
+
+<details>
+<summary>📊 Fact</summary>
+About 60–70% of data science work is data cleaning.
+</details>
 
 <hr>
 
 <p align="center">
-<i>“Data is powerful. Understanding data is a superpower.”</i>
+<i>GitHub quizzes are self-check style — think, click, reveal.</i>
 </p>
 
 <p align="center">
-🚀 <b>Welcome to CPE310 — where raw data becomes insight.</b>
+🚀 <b>You are now thinking like a data scientist.</b>
 </p>
