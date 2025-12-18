@@ -12,13 +12,27 @@
 
 <p>
 My name is <b>James Lozano</b> and I’m 19 years old. I am the coolest guy on Earth.  
-I have <b>2 pets</b>, <b>300 pesos</b> in my bank account, <b>100 problems</b>,  
-<b>20 bad habits</b>, <b>5 pending assignments</b>, but at least I got the van. 🚐
+I have <b>300 pesos</b> in my bank account, <b>100 problems</b>,  
+<b>20 bad habits</b>, <b>5 pending assignments</b>, but at least I got the van. 🚐 ok corny
 </p>
 
 <p align="center">
   <img src="https://media1.tenor.com/m/VFshO4Ld52gAAAAd/michael-pena-but-i-got-the-van.gif" width="520">
 </p>
+
+
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jamesezano) 
+
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Epic Games](https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=qjalozano-beep&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=qjalozano-beep&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=qjalozano-beep&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=qjalozano-beep&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
 <h1 align="center" style="font-family: monospace; color:#58a6ff;">
