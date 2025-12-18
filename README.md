@@ -1,7 +1,25 @@
+
+
+
+
+
 <!-- ===================================================== -->
 <!--  CPE310 – FUNDAMENTALS OF DATA SCIENCE (IE22S1)        -->
 <!--  DARK CYBER • FULL COURSE README                      -->
 <!-- ===================================================== -->
+
+<h2>👤 ABOUT ME</h2>
+
+<p>
+My name is <b>James Lozano</b> and I’m 19 years old. I am the coolest guy on Earth.  
+I have <b>2 pets</b>, <b>300 pesos</b> in my bank account, <b>100 problems</b>,  
+<b>20 bad habits</b>, <b>5 pending assignments</b>, but at least I got the van. 🚐
+</p>
+
+<p align="center">
+  <img src="https://tenor.com/view/michael-pena-but-i-got-the-van-antman-luis-gif-11792358">
+</p>
+
 
 <h1 align="center" style="font-family: monospace; color:#58a6ff;">
 ⚡ CPE310 — FUNDAMENTALS OF DATA SCIENCE
