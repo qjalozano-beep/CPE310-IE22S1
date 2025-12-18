@@ -21,10 +21,6 @@ IE22S1 | Data • Code • Patterns • Intelligence
 🌌 WHAT IS DATA SCIENCE?
 </h2>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWt2dThjMjdyNmMydzU5ZGlxMDgxd2s4YWNiMmtsMTd6cDVpazI1aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/V4NSR1NG2p0KeJJyr5/giphy.gif" width="520">
-</p>
-
 
 <p style="font-family: monospace;">
 <b>Data Science</b> is about using data to understand problems and make smart decisions.
@@ -42,6 +38,11 @@ It turns raw numbers into useful knowledge.
 <h2 style="font-family: monospace; color:#7ee787;">
 🔁 THE DATA SCIENCE PIPELINE
 </h2>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWt2dThjMjdyNmMydzU5ZGlxMDgxd2s4YWNiMmtsMTd6cDVpazI1aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/V4NSR1NG2p0KeJJyr5/giphy.gif" width="520">
+</p>
+
 
 <pre>
 📥 COLLECT DATA
