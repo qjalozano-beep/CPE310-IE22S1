@@ -22,19 +22,15 @@ IE22S1 | Data • Code • Patterns • Intelligence
 </h2>
 
 <p style="font-family: monospace;">
-<b>Data Science</b> is the practice of using data to understand problems and make better decisions.
+<b>Data Science</b> is about using data to understand problems and make smart decisions.
 It turns raw numbers into useful knowledge.
 </p>
 
-<pre style="font-family: monospace;">
+<pre>
 📊 Data = raw facts
 🧠 Insight = meaning from data
 🎯 Goal = better decisions
 </pre>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="420">
-</p>
 
 <hr>
 
@@ -42,7 +38,7 @@ It turns raw numbers into useful knowledge.
 🔁 THE DATA SCIENCE PIPELINE
 </h2>
 
-<pre style="font-family: monospace; font-size: 15px;">
+<pre>
 📥 COLLECT DATA
       ↓
 🧹 CLEAN DATA
@@ -56,8 +52,8 @@ It turns raw numbers into useful knowledge.
 📢 SHARE INSIGHTS
 </pre>
 
-<p style="font-family: monospace;">
-💡 <b>Fact:</b> 70% of a data scientist’s time is spent cleaning data.
+<p>
+💡 Fun fact: Data scientists spend about <b>70%</b> of their time cleaning data.
 </p>
 
 <hr>
@@ -66,44 +62,22 @@ It turns raw numbers into useful knowledge.
 🛠 TOOLS USED IN THIS COURSE
 </h2>
 
-<table>
-  <tr>
-    <th style="font-family: monospace;">Tool</th>
-    <th style="font-family: monospace;">Purpose</th>
-  </tr>
-  <tr>
-    <td>🐍 Python</td>
-    <td>Main programming language</td>
-  </tr>
-  <tr>
-    <td>📓 Jupyter Notebook</td>
-    <td>Code + output in one place</td>
-  </tr>
-  <tr>
-    <td>📊 Pandas</td>
-    <td>Work with tables (DataFrames)</td>
-  </tr>
-  <tr>
-    <td>📈 Matplotlib / Seaborn</td>
-    <td>Create charts and graphs</td>
-  </tr>
-  <tr>
-    <td>🤖 Scikit-learn</td>
-    <td>Machine learning models</td>
-  </tr>
-  <tr>
-    <td>🗂 GitHub</td>
-    <td>Store and share projects</td>
-  </tr>
-</table>
+<pre>
+🐍 Python        → main programming language
+📓 Jupyter       → code + results together
+📊 Pandas        → tables (DataFrames)
+📈 Matplotlib    → charts & graphs
+🤖 Scikit-learn  → machine learning
+🗂 GitHub        → save & share work
+</pre>
 
 <hr>
 
 <h2 style="font-family: monospace; color:#7ee787;">
-🐍 PYTHON + DATAFRAME BASICS
+🐍 PYTHON & DATAFRAME EXAMPLE
 </h2>
 
-```python
+<pre>
 import pandas as pd
 
 data = {
@@ -112,27 +86,50 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df
+print(df)
 
-# Basic statistics
-df["Score"].mean(), df["Score"].max(), df["Score"].min()
+average = df["Score"].mean()
+highest = df["Score"].max()
+lowest = df["Score"].min()
 
-<p style="font-family: monospace;"> 📌 A <b>DataFrame</b> is a table made of rows and columns. </p> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 📊 DATA VISUALIZATION </h2>
+print("Average:", average)
+print("Highest:", highest)
+print("Lowest:", lowest)
+</pre>
 
+<p>
+📌 A <b>DataFrame</b> is simply a table with rows and columns.
+</p>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+📊 DATA VISUALIZATION
+</h2>
+
+<pre>
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(6,4))
 plt.bar(df["Name"], df["Score"], color="cyan")
 plt.title("Student Scores")
 plt.xlabel("Student")
 plt.ylabel("Score")
 plt.show()
+</pre>
 
-<p style="font-family: monospace;"> 📈 Charts help us understand data faster than numbers alone. </p> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🤖 INTRODUCTION TO MACHINE LEARNING </h2>
+<p>
+📈 Charts help us see patterns faster than numbers alone.
+</p>
 
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🤖 SIMPLE MACHINE LEARNING
+</h2>
+
+<pre>
 from sklearn.linear_model import LinearRegression
 
-# Simple dataset
 X = [[1], [2], [3], [4], [5]]
 y = [2, 4, 6, 8, 10]
 
@@ -140,6 +137,102 @@ model = LinearRegression()
 model.fit(X, y)
 
 prediction = model.predict([[6]])
-prediction
+print("Prediction for X=6:", prediction)
+</pre>
 
-<p style="font-family: monospace;"> 🤖 Machine learning lets computers learn patterns from data. </p> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🎯 MINI CHALLENGES </h2> <pre style="font-family: monospace;"> CHALLENGE 1: Add a new column called "Passed" (Score ≥ 85). CHALLENGE 2: Sort the DataFrame by Score (highest to lowest). CHALLENGE 3: Change the chart to a line graph. CHALLENGE 4: Predict the score when X = 7 using the model. </pre> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🧩 QUICK QUIZ (TRY WITHOUT GOOGLE) </h2> <pre style="font-family: monospace;"> 1) What is a DataFrame? A) A chart B) A table of data C) A machine learning model 2) Which step comes first? A) Modeling B) Visualization C) Data Collection 3) True or False: Clean data always gives better results. </pre> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🤯 INTERESTING DATA SCIENCE FACTS </h2> <pre style="font-family: monospace;"> 📌 Netflix saves millions using data recommendations 📌 Self-driving cars learn from camera data 📌 One wrong value can break an entire analysis 📌 Data science mixes math, code, and creativity 📌 Python is one of the most loved data languages </pre> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🌍 WHERE DATA SCIENCE IS USED </h2> <p style="font-family: monospace;"> 🏦 Finance & Banking 🏥 Healthcare 🛒 Online Shopping 📱 Mobile Apps 🎮 Games 🤖 Artificial Intelligence </p> <hr> <h2 style="font-family: monospace; color:#7ee787;"> 🚀 WHY CPE310 MATTERS </h2> <pre style="font-family: monospace;"> ✔ Learn how to think with data ✔ Solve real-world problems ✔ Prepare for AI and ML courses ✔ Build job-ready skills </pre> <hr> <p align="center" style="font-family: monospace; color:#8b949e;"> <i>“Data is powerful. Understanding data is superpower.”</i> </p> <p align="center" style="font-family: monospace; color:#58a6ff;"> 🚀 <b>Welcome to CPE310 — where raw data becomes insight.</b> </p> ```
+<p>
+🤖 Machine learning lets computers learn patterns from data.
+</p>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🎯 MINI CHALLENGES
+</h2>
+
+<pre>
+CHALLENGE 1:
+Add a column called "Passed" (Score ≥ 85).
+
+CHALLENGE 2:
+Sort the table from highest score to lowest.
+
+CHALLENGE 3:
+Change the bar chart into a line chart.
+
+CHALLENGE 4:
+Predict the value when X = 7.
+</pre>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🧩 QUICK QUIZ
+</h2>
+
+<pre>
+1) What is a DataFrame?
+A) A chart
+B) A table of data
+C) A model
+
+2) What comes first?
+A) Modeling
+B) Visualization
+C) Data Collection
+
+3) True or False:
+Clean data gives better results.
+</pre>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🤯 INTERESTING DATA FACTS
+</h2>
+
+<pre>
+📌 Netflix uses data to recommend shows
+📌 One wrong value can break analysis
+📌 Charts explain faster than tables
+📌 Python is one of the most used data languages
+📌 Data science mixes logic and creativity
+</pre>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🌍 WHERE DATA SCIENCE IS USED
+</h2>
+
+<pre>
+🏦 Finance
+🏥 Healthcare
+🛒 Online Shopping
+📱 Mobile Apps
+🎮 Games
+🤖 Artificial Intelligence
+</pre>
+
+<hr>
+
+<h2 style="font-family: monospace; color:#7ee787;">
+🚀 WHY CPE310 MATTERS
+</h2>
+
+<pre>
+✔ Learn how to think with data
+✔ Solve real-world problems
+✔ Prepare for AI and ML
+✔ Build future-ready skills
+</pre>
+
+<hr>
+
+<p align="center">
+<i>“Data is powerful. Understanding data is a superpower.”</i>
+</p>
+
+<p align="center">
+🚀 <b>Welcome to CPE310 — where raw data becomes insight.</b>
+</p>
